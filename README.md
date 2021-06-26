@@ -49,6 +49,8 @@ body {
   font-size  : 16px;
   line-height: 1.4;
 }
+
+// Can dig in one layer only
 ```
 **What `map-deep-get()` can do**:
 
@@ -82,4 +84,6 @@ $colorScheme: (
 .element--light {
     color: #ecdac3;
 }
+
+// Can dig in multiple layers 
 ```
